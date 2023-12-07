@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  padding: 0;
+  margin: 1 rem;
+  color: #000000de;
+}
+.container {
+  max-width: 1200px;
+}
+.coin-section {
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.coin-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 150px;
+}
+.currency-list {
+  border-radius: 1em;
+  background-color: #aed6f1;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+.currency-button {
+  border-radius: 1em;
+  background-color: #5dade2;
+  padding: 1rem;
+  font-size: 2 rem;
+}
+.currency-button:hover {
+  background-color: #2e86c1;
+}
